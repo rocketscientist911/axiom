@@ -1,10 +1,10 @@
 [
 	{
-		"command":"sudo nmap -iL input -oG output",
+		"command":"sudo nmap --min=rate=1400 -iL input -oG output",
 		"ext":"txt"
 	},
 	{
-		"command":"sudo nmap -iL input -oX output",
+		"command":"sudo nmap --min-rate=1400 -iL input -oX output",
 		"ext":"xml"
 	}
 ]
